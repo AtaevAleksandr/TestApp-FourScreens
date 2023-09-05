@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct TestApp_4ScreensApp: App {
+    @AppStorage("ShouldOpenFourthScreen") var shouldOpenFourthScreen = false
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if shouldOpenFourthScreen {
+                FourthView()
+            } else {
+                ContentView()
+            }
         }
     }
 }

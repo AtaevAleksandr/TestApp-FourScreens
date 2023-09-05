@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  SecondView.swift
 //  TestApp-4Screens
 //
 //  Created by Aleksandr Ataev on 04.09.2023.
@@ -7,14 +7,16 @@
 
 import SwiftUI
 
-struct ContentView: View {
+
+struct SecondView: View {
+
     var body: some View {
-        NavTabView()
+        NetworkDataFetcherView()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct SecondView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        SecondView()
     }
 }

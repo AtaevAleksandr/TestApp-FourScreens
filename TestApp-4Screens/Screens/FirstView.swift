@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  FirstView.swift
 //  TestApp-4Screens
 //
 //  Created by Aleksandr Ataev on 04.09.2023.
@@ -7,14 +7,15 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct FirstView: View {
+
     var body: some View {
-        NavTabView()
+        SaveDataView()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct FirstView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        FirstView()
     }
 }

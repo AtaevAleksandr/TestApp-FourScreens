@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  FourthView.swift
 //  TestApp-4Screens
 //
 //  Created by Aleksandr Ataev on 04.09.2023.
@@ -7,14 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct FourthView: View {
     var body: some View {
-        NavTabView()
+        WebView(urlString: "https://www.google.com")
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct FourthView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        FourthView()
     }
 }

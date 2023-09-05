@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  ThirdView.swift
 //  TestApp-4Screens
 //
 //  Created by Aleksandr Ataev on 04.09.2023.
@@ -7,14 +7,16 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ThirdView: View {
+
+
     var body: some View {
-        NavTabView()
+        OpenClosedView()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ThirdView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ThirdView()
     }
 }
